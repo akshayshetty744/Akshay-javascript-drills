@@ -56,3 +56,10 @@ for (i = 0; i < inventory.length; i++) {
         console.log(`1) car 33 is year ${inventory[i].car_year} car maker ${inventory[i].car_make} car model ${inventory[i].car_model}`)
     }
 }
+     //Challenge 2
+    for(i=0;i<inventory.length;i++){
+         
+         if(inventory[i].id==inventory.length){
+            console.log(`2) car maker ${inventory[i].car_make} car model ${inventory[i].car_model}`);
+         }
+    }
