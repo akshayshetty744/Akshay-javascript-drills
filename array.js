@@ -76,3 +76,14 @@ for (i = 0; i < inventory.length; i++) {
   }
    problem3();
 
+   //Challenge 4
+    function problem4() {    
+        let carYears=[];
+        for (let i = 0; i < inventory.length; i++) {
+       carYears[i] = inventory[i]["car_year"];
+       
+    }
+      console.log("4)")
+       console.log(carYears);
+    }
+    problem4(); 
