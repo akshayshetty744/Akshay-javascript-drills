@@ -63,3 +63,16 @@ for (i = 0; i < inventory.length; i++) {
             console.log(`2) car maker ${inventory[i].car_make} car model ${inventory[i].car_model}`);
          }
     }
+
+  //Challenge 3
+        function problem3() {
+            let carModels = [];
+    for (let i = 0; i < inventory.length; i++) {
+        carModels[i] = inventory[i]["car_model"].toLocaleLowerCase();
+    }
+    carModels.sort();
+    console.log("3) sorted carModels")
+    console.log(carModels);   
+  }
+   problem3();
+
