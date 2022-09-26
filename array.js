@@ -87,3 +87,17 @@ for (i = 0; i < inventory.length; i++) {
        console.log(carYears);
     }
     problem4(); 
+
+//Challenge 5
+    function problem5(){
+        let oldCars =[];
+        for(i=0;i<inventory.length;i++){
+            if(inventory[i].car_year <2000){
+                oldCars.push(inventory[i]) 
+            }
+        }
+        console.log(`5)total cars are  ${oldCars.length} `);   
+        console.log(oldCars)
+}
+problem5();
+ 
