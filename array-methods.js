@@ -50,17 +50,20 @@ console.log(numsByTen);
   One called maleFriends (a list of all friends filtered where gender === 'M')
 */
 
+console.log("4) Problem 4: Filter Friends")
 const friends = [
-  { name: 'Monica', gender: 'F' },
-  { name: 'Chandler', gender: 'M' },
-  { name: 'Ross', gender: 'M' },
-  { name: 'Phoebe', gender: 'F' },
-  { name: 'Joey', gender: 'M' },
-  { name: 'Rachel', gender: 'M' }
+    { name: 'Monica', gender: 'F' },
+    { name: 'Chandler', gender: 'M' },
+    { name: 'Ross', gender: 'M' },
+    { name: 'Phoebe', gender: 'F' },
+    { name: 'Joey', gender: 'M' },
+    { name: 'Rachel', gender: 'M' }
 ];
 
-const femaleFriends = friends; // finish this
-const male = friends; // finish this
+const femaleFriends = friends.filter(e => e.gender == "F");
+console.log(femaleFriends);
+const male = friends.filter(e => e.gender == "M");
+console.log(male);
 
 module.exports = {
   justiceLeague,
