@@ -57,7 +57,12 @@ greetCaller(greet)
   When you're done, make sure that you finish the code inside of `every` and ensure it works the way it's supposed to
 */
 
-every(simpsons, (/* don't forget your items */) => {
-  // fill this in.
-  // log each item that comes back to the console.
-});
+    function greet2(name) {
+      console.log(`Hello there, ${name}`)
+    };
+    let every = (simpsons, callback) => {
+      for (let a of simpsons) {
+        callback(a)
+      }
+    };
+    every(simpsons, greet2)
