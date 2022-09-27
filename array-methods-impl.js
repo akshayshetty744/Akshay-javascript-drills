@@ -55,12 +55,22 @@ function reduce(elements, cb, startingValue) {
 reduce(items, cb2, 10)
 
 
-function find(elements, cb) {
-  // Do NOT use .includes, to complete this function.
-  // Look through each value in `elements` and pass each element to `cb`.
-  // If `cb` returns `true` then return that element.
-  // Return `undefined` if no elements pass the truth test.
+//find
+function cb3(a) {
+  if (!a) {
+    console.log(`undefined`);
+  } else {
+    console.log(a);
+  }
 }
+
+function find(elements, cb) {
+  for (let i of elements) {
+    cb(i)
+  }
+}
+find(items, cb3)
+
 
 function filter(elements, cb) {
   // Do NOT use .filter, to complete this function.
