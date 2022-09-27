@@ -28,7 +28,10 @@
   In our list of Characters from Middle Earth remove sauraman. He's a traitor.
 */
 
+console.log("2) Problem 2: Middle Earth")
 const middleEarth = ['Frodo', 'Samwise', 'Gandalf', 'Sauraman', 'Treebeard'];
+middleEarth[3] = 'traitor';
+console.log(middleEarth);
 
 /* 
   Problem 3: Numbers
