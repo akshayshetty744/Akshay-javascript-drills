@@ -90,10 +90,16 @@ find(items, cb3)
     }
     filter(items, cb4)
 
+//flatten
 const nestedArray = [1, [2], [[3]], [[[4]]]]; // use this to test 'flatten'
 
-function flatten(elements) {
+function flatten(ele) {
   // Flattens a nested array (the nesting can be to any depth).
   // Hint: You can solve this using recursion.
   // Example: flatten([1, [2], [3, [[4]]]]); => [1, 2, 3, 4];
+  var x =JSON.parse('['+ JSON.stringify(ele).replace(/\[/g, ' ').replace(/\]/g, ' ') + ']')
+console.log( x )
+ 
 }
+
+flatten(nestedArray);
