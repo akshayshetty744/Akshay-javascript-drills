@@ -27,6 +27,16 @@
 */
 
 // code greet here.
+  function greet(name) {
+    console.log(`Hello there, ${name}`)
+  };
+
+  function greetCaller(callback) {
+    let name = 'Akshay';
+    callback(name);
+  };
+
+greetCaller(greet)
 
 /*
   Problem 2: forEach
