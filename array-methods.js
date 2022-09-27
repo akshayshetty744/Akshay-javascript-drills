@@ -38,9 +38,10 @@ console.log(middleEarth);
   map over this array, and return a new array of the numbers in it, multiplied by 10
 */
 
+console.log("3) Problem 3: Numbers")
 const numbers = [2, 3, 4, 5, 6];
-
-const numsByTen = numbers; // finish this.
+var numsByTen = numbers.map((e) => e * 10);
+console.log(numsByTen);
 
 /* 
   Problem 4: Filter Friends
