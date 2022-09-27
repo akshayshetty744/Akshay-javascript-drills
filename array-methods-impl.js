@@ -22,12 +22,19 @@ const items = [1, 2, 3, 4, 5, 5]; // use this array to test your code.
     each(items, cb)
 
 
-function map(elements, cb) {
-  // Do NOT use .map, to complete this function.
-  // How map works: Map calls a provided callback function once for each element in an array, in order, and functionructs a new array from the res .
-  // Produces a new array of values by mapping each value in list through a transformation function (iteratee).
-  // Return the new array.
-}
+//map
+    let x = [];
+    function cb1(a) {
+      x.push(a * 10);
+      console.log(x)
+    }
+    function map(elements, cb) {
+      for (let i of elements) {
+        cb(i)
+      }
+    }
+    map(items, cb1)
+
 
 function reduce(elements, cb, startingValue) {
   // Do NOT use .reduce to complete this function.
