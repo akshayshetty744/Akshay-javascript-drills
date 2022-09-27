@@ -16,7 +16,12 @@
   ​​​​​[ 'Superman',​​​​​'Batman',​​​​​​​​​​ 'Wonder Woman',​​​​​ 'Flash',​​​​​'Aquaman',​​​​​ 'Green Lantern' ]​​​​​
 */
 
-const justiceLeague = ['Robin', 'Batman', 'Wonder Woman', 'Flash', 'Aquaman'];
+    console.log("1) Problem 1: Justice League")
+    const justiceLeague = ['Robin', 'Batman', 'Wonder Woman', 'Flash', 'Aquaman'];
+    justiceLeague.shift();
+    justiceLeague.push("Green Lantern");
+    justiceLeague.unshift("Superman")
+    console.log(justiceLeague)
 
 /* 
   Problem 2: Middle Earth
