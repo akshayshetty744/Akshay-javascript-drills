@@ -4,16 +4,16 @@ const testObject = { name: 'Bruce Wayne', age: 36, location: 'Gotham' }; // use 
 // Reference http://underscorejs.org/ for examples.
 
 function keys(obj) {
- return Object.keys(obj);
+  return Object.keys(obj);
 }
 
 function values(obj) {
-return Object.values(obj);
+  return Object.values(obj);
 }
 
 function mapObject(obj, cb) {
-  // Like map for arrays, but for objects. Transform the value of each property in turn by passing it to the callback function.
-  // http://underscorejs.org/#mapObject
+  Object.keys(obj).map((element) => (obj[element] = cb(obj[element])));
+  return obj;
 }
 
 function pairs(obj) {
