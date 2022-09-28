@@ -20,8 +20,8 @@ console.log(studentKeys);
   return an array of an Objects values
 */
 
-const studentValues = Object; // finish this.
-
+const studentValues = Object.values(student); // finish this.
+console.log(studentKeys);
 /* 
   Problem 3: Giver Info
   Add a list of charecters to Jonas' object
