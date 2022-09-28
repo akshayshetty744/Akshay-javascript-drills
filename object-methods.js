@@ -23,9 +23,13 @@ function pairs(obj) {
 /* STRETCH PROBLEMS */
 
 function invert(obj) {
-  // Returns a copy of the object where the keys have become the values and the values the keys.
-  // Assume that all of the object's values will be unique and string serializable.
-  // http://underscorejs.org/#invert
+   let newObj={}
+  Object.keys(obj).forEach((item)=>{
+    let value=obj[item]
+    newObj[value]=item
+
+  })
+  return newObj
 }
 
 function defaults(obj, defaultProps) {
