@@ -29,7 +29,9 @@ function invert(obj) {
 }
 
 function defaults(obj, defaultProps) {
-  // Fill in undefined properties that match properties on the `defaultProps` parameter object.
-  // Return `obj`.
-  // http://underscorejs.org/#defaults
+  Object.keys(defaultProps).forEach((key) => {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) return;
+    obj[key] = defaultProps[key];
+  });
+  return obj;
 }
