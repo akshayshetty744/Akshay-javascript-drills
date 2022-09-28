@@ -31,4 +31,10 @@ console.log(studentKeys);
   next: select that list and iterate over it using `.forEach` simply log the name of each char in the list;
 */
 
-const listOfChars = student.characters; // finish this.
+student.characters=['Lily', 'Mother', 'Father', 'Caleb', 'Asher']
+student.ak="akshay"
+console.log(student)
+const values = student.characters; // finish this.
+values.forEach(element => {
+  console.log(element)
+});
