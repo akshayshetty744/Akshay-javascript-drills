@@ -12,8 +12,8 @@
 */
 
 const student = { name: 'Jonas', age: '12', gender: 'M', role: 'Receiver' };
-const studentKeys = Object; // finish this.
-
+const studentKeys = Object.keys(student); // finish this.
+console.log(studentKeys);
 /* 
   Problem 2: Giver Info
   using the same object as above.
