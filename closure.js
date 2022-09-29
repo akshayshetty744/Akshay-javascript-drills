@@ -7,9 +7,12 @@ function counterFactory() {
 }
 
 function limitFunctionCallCount(cb, n) {
-  // Should return a function that invokes `cb`.
-  // The returned function should only allow `cb` to be invoked `n` times.
-  // Returning null is acceptable if cb can't be returned
+  let callCount = 0;
+  return (...a) => {
+    if (callCount === n) return null;
+    callCount++;
+    return cb(...a);
+  };
 }
 
 function cacheFunction(cb) {
