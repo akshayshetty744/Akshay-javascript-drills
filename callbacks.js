@@ -37,6 +37,7 @@
   };
 
 greetCaller(greet)
+greetCaller(greet);
 
 /*
   Problem 2: forEach
