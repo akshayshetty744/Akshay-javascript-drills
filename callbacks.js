@@ -36,7 +36,6 @@
     callback(name);
   };
 
-greetCaller(greet)
 greetCaller(greet);
 
 /*
