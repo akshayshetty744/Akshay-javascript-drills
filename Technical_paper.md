@@ -32,6 +32,10 @@
 
    ![1_aDQUwsijfEQa6vkhY91N3w](https://user-images.githubusercontent.com/84218281/200830324-5989341b-1cdd-4b29-b568-a92f0609a09a.png)
 
+## Javascript engines :
+* A javascript engine (sometimes also called an ECMAScript engine) is a piece of software that executes (runs) Javascript code in the browser, and not only (the V8 engine is a core component of the Node.js environment, for example).
+*  V8 : V8 is Google’s high-performance JavaScript engine. It is written in C++ and it's used in Chrome and in Node.js, among others. It implements ECMAScript (a JavaScript standard meant to ensure the interoperability of web pages across different web browsers) and WebAssembley. It implements ​ECMA-262.
+
 ## References Section
 * https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work#:~:text=to%20screen%20readers.-,Render,then%20painted%20to%20the%20screen.
 * https://developer.chrome.com/articles/renderingng/
