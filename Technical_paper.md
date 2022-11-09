@@ -28,3 +28,11 @@
  
  * Rendering Engine : The work of the rendering engine starts once the user has requested a particular web page. The rendering engine starts receiving the Html, CSS and js files of the requested web page, through the networking layer. After receiving the content of the requested page
  
+## How browser is work 
+
+   ![1_aDQUwsijfEQa6vkhY91N3w](https://user-images.githubusercontent.com/84218281/200830324-5989341b-1cdd-4b29-b568-a92f0609a09a.png)
+
+## References Section
+* https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work#:~:text=to%20screen%20readers.-,Render,then%20painted%20to%20the%20screen.
+* https://developer.chrome.com/articles/renderingng/
+* https://blog.logrocket.com/how-browser-rendering-works-behind-scenes/
