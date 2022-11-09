@@ -31,7 +31,9 @@
 ## How browser is work 
 
    ![1_aDQUwsijfEQa6vkhY91N3w](https://user-images.githubusercontent.com/84218281/200830324-5989341b-1cdd-4b29-b568-a92f0609a09a.png)
-
+## How the Browser Renders HTML?
+  A web browser is a piece of software that downloads files from a remote server and displays them to you, allowing user interaction. The process of compiling the     files downloaded from a remote server and showing them to the user is done by browser engines.
+  
 ## Javascript engines :
 * A javascript engine (sometimes also called an ECMAScript engine) is a piece of software that executes (runs) Javascript code in the browser, and not only (the V8 engine is a core component of the Node.js environment, for example).
 *  V8 : V8 is Google’s high-performance JavaScript engine. It is written in C++ and it's used in Chrome and in Node.js, among others. It implements ECMAScript (a JavaScript standard meant to ensure the interoperability of web pages across different web browsers) and WebAssembley. It implements ​ECMA-262.
