@@ -19,3 +19,12 @@
   JavaScript interpreter. Used to parse and execute JavaScript code.
 
  4) Data storage. This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+
+* ###  The main 2 components of the browser engine which are responsible for the rendering of the web page are:-
+  1) Browser Engine
+  2) Rendering Engine
+ 
+ * Browser Engine : Browser engines are also referred to as the javascript engine of the web browser, different web browsers use different javascript engines like google’s javascript engine name is V8 similarly Firefox has spider monkey, Safari has nitro and edge has Chakra. The key objective of the browser engine is to marshall's actions between the UI interface and the rendering engine.
+ 
+ * Rendering Engine : The work of the rendering engine starts once the user has requested a particular web page. The rendering engine starts receiving the Html, CSS and js files of the requested web page, through the networking layer. After receiving the content of the requested page
+ 
